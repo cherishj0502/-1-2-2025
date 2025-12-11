@@ -1,0 +1,54 @@
+  <!-- GALLERY (이미지 대신 텍스트 카드) -->
+  <section id="gallery">
+    <h2>오사카 이미지 갤러리</h2>
+    <p class="subtitle">
+      사진 대신, 각 칸이 “이미지+설명” 역할을 하는 카드로 구성되어 있음.
+    </p>
+
+    <style>
+      .fake-gallery {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+        gap:0.9rem;
+        margin-top:1.1rem;
+      }
+      .fake-img {
+        border-radius:0.9rem;
+        border:1px solid #1f2937;
+        background:linear-gradient(135deg,#0f172a,#020617);
+        height:160px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        padding:0.8rem;
+        font-size:0.9rem;
+        color:#e5e7eb;
+      }
+      .fake-img span {
+        opacity:0.9;
+      }
+    </style>
+
+    <div class="fake-gallery">
+      <div class="fake-img"><span>도톤보리 야경 · 글리코 사인과 네온 간판이 강가를 따라 늘어선 오사카 대표 거리</span></div>
+      <div class="fake-img"><span>신사이바시 아케이드 · 쇼핑과 카페, 잡화점이 가득한 실내 상점가</span></div>
+      <div class="fake-img"><span>우메다 스카이빌딩 · 공중정원 전망대에서 내려다보는 오사카 시내 전경</span></div>
+      <div class="fake-img"><span>오사카성 공원 · 성과 벚꽃, 잔디광장이 어우러진 도심 공원</span></div>
+      <div class="fake-img"><span>신세카이 · 츠텐카쿠 타워와 레트로 간판들이 가득한 거리</span></div>
+      <div class="fake-img"><span>쿠로몬 시장 · 신선한 해산물과 과일, 길거리 음식이 유명한 시장</span></div>
+      <div class="fake-img"><span>USJ(유니버셜 스튜디오 재팬) · 닌텐도 월드와 해리포터 마을이 있는 테마파크</span></div>
+      <div class="fake-img"><span>아베노 하루카스 · 전망대에서 보는 야경과 대형 쇼핑몰</span></div>
+      <div class="fake-img"><span>도톤보리 타코야키 · 길거리에서 바로 구워 파는 오사카 대표 간식</span></div>
+      <div class="fake-img"><span>오코노미야키 · 철판 위에서 바로 구워 먹는 오사카식 부침 요리</span></div>
+      <div class="fake-img"><span>쿠시카츠 · 튀김 꼬치와 전용 소스를 즐길 수 있는 신세카이 명물</span></div>
+      <div class="fake-img"><span>회전초밥 · 가성비 좋게 초밥을 즐길 수 있는 체인점들</span></div>
+      <div class="fake-img"><span>난카이 난바역 주변 · 숙소·식당·쇼핑이 몰려 있는 여행의 중심지</span></div>
+      <div class="fake-img"><span>나카노시마 공원 · 강과 건물이 어우러진 도심 속 산책 코스</span></div>
+      <div class="fake-img"><span>우메다 지하상가 · 비 오는 날에도 이동하기 편한 지하 쇼핑존</span></div>
+      <div class="fake-img"><span>밤의 도톤보리 크루즈 · 강 위에서 바라보는 네온사인 야경</span></div>
+      <div class="fake-img"><span>이자카야 골목 · 회사원들이 퇴근 후 모여 술과 안주를 즐기는 거리</span></div>
+      <div class="fake-img"><span>게임센터 & 프라모델 샵 · 일본 오타쿠 문화 체험 공간</span></div>
+      <div class="fake-img"><span>카페 거리 · 감성 카페와 디저트 가게들이 모인 작은 골목</span></div>
+    </div>
+  </section>
